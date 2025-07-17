@@ -15,7 +15,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 //builder.WebHost.UseUrls("http://0.0.0.0:5021");
-builder.WebHost.UseUrls("http://0.0.0.0:7001");
+builder.WebHost.UseUrls("http://0.0.0.0:7256");
 app.UseAuthorization();
 
 // 👇 Important
